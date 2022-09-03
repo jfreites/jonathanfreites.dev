@@ -1,0 +1,42 @@
+body {
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+    font-family: 'Avenir', sans-serif; 
+    color: #33475b;
+    background-color: rgb(246, 245, 243);   
+  }
+
+  .center {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 3px solid #dbe4ed; /* debug */
+  }
+
+  input[type=email] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #4b1dde;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(222, 221, 221);
+    background-image: url('../images/email48.png');
+    /* background-position: 10px 10px;  */
+    background-repeat: no-repeat;
+    padding: 14px 20px 14px 50px;
+    float: left;
+  }
+
+  input[type=button], input[type=submit] {
+    background-color: #4b1dde;
+    border: 2px solid #3f10d8;
+    border-radius: 4px;
+    color: white;
+    padding: 14px 40px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: left;
+  }
